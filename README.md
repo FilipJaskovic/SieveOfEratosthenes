@@ -33,7 +33,7 @@ def sieve_of_eratosthenes(n):
 
     primes = [i for i, is_prime in enumerate(sieve) if is_prime]
     return primes
-
+```
 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
